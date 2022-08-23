@@ -7,7 +7,7 @@ int main(void)
 {
     int count = 0;
     int myNum;
-    //srand(time(0));
+    srand(time(0));
     int r = rand() % 100;
     //printf("%i\n", r);
     printf("Type a number: \n");
