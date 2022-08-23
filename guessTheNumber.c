@@ -7,7 +7,7 @@ int main(void)
 {
     int count = 0;
     int myNum;
-    srand(time(0));
+    //srand(time(0));
     int r = rand() % 100;
     //printf("%i\n", r);
     printf("Type a number: \n");
@@ -30,6 +30,6 @@ int main(void)
     {
         printf("Sorry you did not win. The number was %i\n", r);
     }
-    clock_t end = clock();
+    //clock_t end = clock();
     return 0;
 }
